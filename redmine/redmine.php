@@ -5,8 +5,6 @@ namespace Jsanahuja\Redmine;
 class Redmine{
     private $mysqli;
 
-    public $projects;
-
     public function __construct($mysqli){
         $this->mysqli = $mysqli;
 
