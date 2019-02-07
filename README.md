@@ -1,5 +1,11 @@
 # Redmine-PHP-API
 A redmine php api using sql queries.
+## Including
+```
+require_once("redmine/autoload.php");
+$mysqli = new \mysqli("localhost", "username", "password", "db");
+$redmine = new \Jsanahuja\Redmine\Redmine($mysqli);
+```
 
 ## Projects
 ```
